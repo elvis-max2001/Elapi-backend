@@ -1,0 +1,9 @@
+server:
+  port: 8132
+  servlet:
+    context-path: /api
+
+elapi:
+  client:
+    access-key: elvis
+    secret-key: abcdefgh
