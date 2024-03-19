@@ -35,6 +35,11 @@ public class InterfaceInfo implements Serializable {
     private String url;
 
     /**
+     * 请求参数
+     */
+    private String requestParams;
+
+    /**
      * 请求头
      */
     private String requestHeader;
@@ -73,7 +78,7 @@ public class InterfaceInfo implements Serializable {
      * 是否删除(0-未删, 1-已删)
      */
     @TableLogic
-    private Integer isDeleted;
+    private Integer isDelete;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
